@@ -109,7 +109,7 @@ class _DetailsState extends State<Details> {
                     })),
               ),
               Container(
-                width: double.infinity,
+                width: MediaQuery.of(context).size.width * 1,
                 height: MediaQuery.of(context).size.height * 1,
                 decoration: const BoxDecoration(
                   color: Colors.white,
@@ -124,16 +124,16 @@ class _DetailsState extends State<Details> {
                     Row(
                       children: [
                         Container(
-                          margin: EdgeInsets.only(left: 5, top: 5),
-                          padding: EdgeInsets.all(10),
+                          margin: const EdgeInsets.all(5),
+                          padding: const EdgeInsets.all(10),
                           child: Text(
                             widget.product['name'].length >
-                                    ResponsiveScreen.fullRepWidth(context, 22)
+                                    ResponsiveScreen.fullRepWidth(context, 12)
                                         .round()
                                 ? widget.product['name'].substring(
                                         0,
                                         ResponsiveScreen.fullRepWidth(
-                                                context, 22)
+                                                context, 12)
                                             .round()) +
                                     '...'
                                 : widget.product['name'],

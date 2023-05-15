@@ -1,3 +1,5 @@
+import 'package:engage_files/components/category_text.dart';
+import 'package:engage_files/components/slider_screen.dart';
 import '../details.dart';
 import '../../components/navigationBar.dart';
 import '../../models/products.dart';
@@ -70,27 +72,29 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               ),
-              TextField(
-                controller: _searchcontroller,
-                obscureText: false,
-                decoration: InputDecoration(
-                  prefixIcon: Icon(
-                    Icons.search,
-                  ),
-                  hintText: "Search",
-                  hintStyle: GoogleFonts.montserrat(
-                    fontSize: ResponsiveScreen.halfRepWidth(context, 16),
-                    fontWeight: FontWeight.w600,
-                    fontStyle: FontStyle.normal,
-                  ),
-                  border: UnderlineInputBorder(),
-                  contentPadding: EdgeInsets.fromLTRB(8, 18, 8, 20),
-                ),
-              ),
-              SizedBox(
-                height: ResponsiveScreen.fullRepHeight(context, 18),
-              ),
+              // TextField(
+              //   controller: _searchcontroller,
+              //   obscureText: false,
+              //   decoration: InputDecoration(
+              //     prefixIcon: Icon(
+              //       Icons.search,
+              //     ),
+              //     hintText: "Search",
+              //     hintStyle: GoogleFonts.montserrat(
+              //       fontSize: ResponsiveScreen.halfRepWidth(context, 16),
+              //       fontWeight: FontWeight.w600,
+              //       fontStyle: FontStyle.normal,
+              //     ),
+              //     border: UnderlineInputBorder(),
+              //     contentPadding: EdgeInsets.fromLTRB(8, 18, 8, 20),
+              //   ),
+              // ),
+              // SizedBox(
+              //   height: ResponsiveScreen.fullRepHeight(context, 18),
+              // ),
+              // const SliderScreen(),
               const BannerWidget(),
+              const CategoryText(),
               Expanded(
                 child: MasonryGridView.builder(
                   itemCount: productData.length,
