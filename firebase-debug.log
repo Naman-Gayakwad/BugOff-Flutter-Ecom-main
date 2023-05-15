@@ -1,0 +1,65 @@
+[debug] [2023-05-15T07:09:27.081Z] ----------------------------------------------------------------------
+[debug] [2023-05-15T07:09:27.083Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig android 1:567419824581:android:af2b4ebe2d528b651303ac --json
+[debug] [2023-05-15T07:09:27.084Z] CLI Version:   11.30.0
+[debug] [2023-05-15T07:09:27.084Z] Platform:      win32
+[debug] [2023-05-15T07:09:27.084Z] Node Version:  v18.16.0
+[debug] [2023-05-15T07:09:27.085Z] Time:          Mon May 15 2023 12:39:27 GMT+0530 (India Standard Time)
+[debug] [2023-05-15T07:09:27.085Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-15T07:09:27.095Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-15T07:09:27.096Z] > authorizing via signed-in user (namangayakwad089@gmail.com)
+[debug] [2023-05-15T07:09:27.100Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:567419824581:android:af2b4ebe2d528b651303ac/config [none]
+[debug] [2023-05-15T07:09:32.061Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:567419824581:android:af2b4ebe2d528b651303ac/config 200
+[debug] [2023-05-15T07:09:32.062Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/androidApps/1:567419824581:android:af2b4ebe2d528b651303ac/config {"configFilename":"google-services.json","configFileContents":"ewogICJwcm9qZWN0X2luZm8iOiB7CiAgICAicHJvamVjdF9udW1iZXIiOiAiNTY3NDE5ODI0NTgxIiwKICAgICJwcm9qZWN0X2lkIjogInRoZS1kZWJ1Zy1kdW8iLAogICAgInN0b3JhZ2VfYnVja2V0IjogInRoZS1kZWJ1Zy1kdW8uYXBwc3BvdC5jb20iCiAgfSwKICAiY2xpZW50IjogWwogICAgewogICAgICAiY2xpZW50X2luZm8iOiB7CiAgICAgICAgIm1vYmlsZXNka19hcHBfaWQiOiAiMTo1Njc0MTk4MjQ1ODE6YW5kcm9pZDphZjJiNGViZTJkNTI4YjY1MTMwM2FjIiwKICAgICAgICAiYW5kcm9pZF9jbGllbnRfaW5mbyI6IHsKICAgICAgICAgICJwYWNrYWdlX25hbWUiOiAiY29tLmV4YW1wbGUuZW5nYWdlX2ZpbGVzIgogICAgICAgIH0KICAgICAgfSwKICAgICAgIm9hdXRoX2NsaWVudCI6IFsKICAgICAgICB7CiAgICAgICAgICAiY2xpZW50X2lkIjogIjU2NzQxOTgyNDU4MS1nNXNnaGsycDltaHRuNnYyaTRnOWxyajlwNzFwOXRwZS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsCiAgICAgICAgICAiY2xpZW50X3R5cGUiOiAzCiAgICAgICAgfQogICAgICBdLAogICAgICAiYXBpX2tleSI6IFsKICAgICAgICB7CiAgICAgICAgICAiY3VycmVudF9rZXkiOiAiQUl6YVN5Q2cxT1otdXA0UTdxV0JYdkRlNm9MYk11S0VvZUtqNTBnIgogICAgICAgIH0KICAgICAgXSwKICAgICAgInNlcnZpY2VzIjogewogICAgICAgICJhcHBpbnZpdGVfc2VydmljZSI6IHsKICAgICAgICAgICJvdGhlcl9wbGF0Zm9ybV9vYXV0aF9jbGllbnQiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAiY2xpZW50X2lkIjogIjU2NzQxOTgyNDU4MS1nNXNnaGsycDltaHRuNnYyaTRnOWxyajlwNzFwOXRwZS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsCiAgICAgICAgICAgICAgImNsaWVudF90eXBlIjogMwogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgImNsaWVudF9pZCI6ICI1Njc0MTk4MjQ1ODEtcGVmYnA3Zmc5Y2FxdjA5bTB2dTYyOW1yNGxvNnRrczMuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLAogICAgICAgICAgICAgICJjbGllbnRfdHlwZSI6IDIsCiAgICAgICAgICAgICAgImlvc19pbmZvIjogewogICAgICAgICAgICAgICAgImJ1bmRsZV9pZCI6ICJjb20uZXhhbXBsZS5lbmdhZ2VGaWxlcyIKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgIF0KICAgICAgICB9CiAgICAgIH0KICAgIH0KICBdLAogICJjb25maWd1cmF0aW9uX3ZlcnNpb24iOiAiMSIKfQ=="}
+[info] {
+  "project_info": {
+    "project_number": "567419824581",
+    "project_id": "the-debug-duo",
+    "storage_bucket": "the-debug-duo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567419824581:android:af2b4ebe2d528b651303ac",
+        "android_client_info": {
+          "package_name": "com.example.engage_files"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567419824581-g5sghk2p9mhtn6v2i4g9lrj9p71p9tpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg1OZ-up4Q7qWBXvDe6oLbMuKEoeKj50g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567419824581-g5sghk2p9mhtn6v2i4g9lrj9p71p9tpe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "567419824581-pefbp7fg9caqv09m0vu629mr4lo6tks3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.engageFiles"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+[debug] [2023-05-15T07:09:41.308Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\Users\lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.

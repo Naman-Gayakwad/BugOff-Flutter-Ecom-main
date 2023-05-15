@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "567419824581",
+    "project_id": "the-debug-duo",
+    "storage_bucket": "the-debug-duo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567419824581:android:af2b4ebe2d528b651303ac",
+        "android_client_info": {
+          "package_name": "com.example.engage_files"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567419824581-g5sghk2p9mhtn6v2i4g9lrj9p71p9tpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg1OZ-up4Q7qWBXvDe6oLbMuKEoeKj50g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567419824581-g5sghk2p9mhtn6v2i4g9lrj9p71p9tpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
