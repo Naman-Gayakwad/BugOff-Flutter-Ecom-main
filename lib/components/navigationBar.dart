@@ -13,7 +13,8 @@ class NavigationBarCustom extends StatefulWidget {
 class _NavigationBarCustomState extends State<NavigationBarCustom> {
   @override
   Widget build(BuildContext context) {
-    return BottomAppBar(
+    return 
+    BottomAppBar(
         child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [

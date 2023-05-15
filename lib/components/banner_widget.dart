@@ -11,7 +11,6 @@ class BannerWidget extends StatefulWidget {
 }
 
 class _BannerWidgetState extends State<BannerWidget> {
-
   int _currentPage = 0;
   final PageController _pageController = PageController(
     initialPage: 0,

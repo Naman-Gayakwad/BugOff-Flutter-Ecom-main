@@ -1,5 +1,7 @@
 // import 'dart:developer';
 
+import 'package:engage_files/Pages/Home/routPage.dart';
+
 import 'Home/home.dart';
 import '../models/firestore_model.dart';
 import '../models/products.dart';
@@ -54,7 +56,10 @@ class _DetailsState extends State<Details> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     IconButton(
-                        onPressed: () => HomeScreen(),
+                        onPressed: () => Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => DashboardScreen())),
                         icon: Icon(
                           Icons.arrow_back,
                           color: Colors.black,

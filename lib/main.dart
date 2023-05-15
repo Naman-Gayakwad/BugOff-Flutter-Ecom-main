@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: CurrentUser.currentUser == false
           ? const DashboardScreen()
-          : const Loginscreen(),
+          : const Splash(),
     );
   }
 }
