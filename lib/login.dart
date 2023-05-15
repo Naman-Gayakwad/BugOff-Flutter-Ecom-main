@@ -1,13 +1,13 @@
-import 'package:engage_files/Pages/Home/home.dart';
-import 'package:engage_files/Pages/Home/routPage.dart';
-import 'package:engage_files/forgotpass.dart';
-import 'package:engage_files/models/user_model.dart';
-import 'package:engage_files/signup.dart';
+import 'Pages/Home/home.dart';
+import 'Pages/Home/routPage.dart';
+import 'forgotpass.dart';
+import 'models/user_model.dart';
+import 'signup.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
-import 'package:engage_files/responsivescreen.dart';
+import 'responsivescreen.dart';
 
 class Loginscreen extends StatefulWidget {
   const Loginscreen({super.key});

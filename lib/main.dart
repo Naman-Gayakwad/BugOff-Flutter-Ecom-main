@@ -1,10 +1,10 @@
-import 'package:engage_files/Pages/Home/routPage.dart';
-import 'package:engage_files/Pages/details.dart';
-import 'package:engage_files/Pages/Home/home.dart';
-import 'package:engage_files/Pages/Home/mycart.dart';
-import 'package:engage_files/login.dart';
-import 'package:engage_files/models/user_model.dart';
-import 'package:engage_files/responsivescreen.dart';
+import 'Pages/Home/routPage.dart';
+import 'Pages/details.dart';
+import 'Pages/Home/home.dart';
+import 'Pages/Home/mycart.dart';
+import 'login.dart';
+import 'models/user_model.dart';
+import 'responsivescreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';

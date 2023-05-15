@@ -1,12 +1,12 @@
 import 'dart:developer';
 
-import 'package:engage_files/login.dart';
-import 'package:engage_files/models/user_model.dart';
+import 'login.dart';
+import 'models/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
-import 'package:engage_files/responsivescreen.dart';
+import 'responsivescreen.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});

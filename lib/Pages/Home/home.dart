@@ -1,7 +1,7 @@
-import 'package:engage_files/Pages/details.dart';
-import 'package:engage_files/components/navigationBar.dart';
-import 'package:engage_files/models/products.dart';
-import 'package:engage_files/responsivescreen.dart';
+import '../details.dart';
+import '../../components/navigationBar.dart';
+import '../../models/products.dart';
+import '../../responsivescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:google_fonts/google_fonts.dart';

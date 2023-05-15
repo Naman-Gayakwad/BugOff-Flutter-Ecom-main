@@ -1,7 +1,7 @@
-import 'package:engage_files/components/navigationBar.dart';
-import 'package:engage_files/login.dart';
-import 'package:engage_files/models/user_model.dart';
-import 'package:engage_files/responsivescreen.dart';
+import '../components/navigationBar.dart';
+import '../login.dart';
+import '../models/user_model.dart';
+import '../responsivescreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

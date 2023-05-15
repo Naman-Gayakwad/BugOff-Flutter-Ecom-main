@@ -1,11 +1,7 @@
-import 'dart:io';
-
-import 'package:engage_files/Pages/Home/routPage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+
+import '../Pages/Home/routPage.dart';
 
 class NavigationBarCustom extends StatefulWidget {
   const NavigationBarCustom({super.key});

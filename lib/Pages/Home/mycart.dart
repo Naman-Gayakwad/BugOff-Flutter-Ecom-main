@@ -1,7 +1,7 @@
-import 'package:engage_files/Pages/details.dart';
-import 'package:engage_files/models/products.dart';
-import 'package:engage_files/models/user_model.dart';
-import 'package:engage_files/responsivescreen.dart';
+import '../details.dart';
+import '../../models/products.dart';
+import '../../models/user_model.dart';
+import '../../responsivescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
