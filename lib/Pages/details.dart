@@ -1,16 +1,16 @@
-import 'dart:developer';
+// import 'dart:developer';
 
-import 'package:engage_files/Pages/Home/home.dart';
-import 'package:engage_files/models/firestore_model.dart';
-import 'package:engage_files/models/products.dart';
-import 'package:engage_files/models/user_model.dart';
-import 'package:engage_files/responsivescreen.dart';
+import 'Home/home.dart';
+import '../models/firestore_model.dart';
+import '../models/products.dart';
+import '../models/user_model.dart';
+import '../responsivescreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class Details extends StatefulWidget {
   Map<String, dynamic> product;

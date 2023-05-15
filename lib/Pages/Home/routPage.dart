@@ -1,8 +1,8 @@
-import 'package:engage_files/Pages/Home/home.dart';
-import 'package:engage_files/Pages/Home/mycart.dart';
-import 'package:engage_files/Pages/Profile.dart';
-import 'package:engage_files/components/navigationBar.dart';
-import 'package:engage_files/login.dart';
+import 'home.dart';
+import 'mycart.dart';
+import '../Profile.dart';
+import '../../components/navigationBar.dart';
+import '../../login.dart';
 import 'package:flutter/material.dart';
 
 class DashboardScreen extends StatefulWidget {
