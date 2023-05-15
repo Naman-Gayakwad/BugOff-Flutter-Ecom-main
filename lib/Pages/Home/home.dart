@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '../../components/banner_widget.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -57,6 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
               SizedBox(
                 height: ResponsiveScreen.fullRepHeight(context, 18),
               ),
+              const BannerWidget(),
               Expanded(
                 child: MasonryGridView.builder(
                   itemCount: productData.length,
@@ -72,8 +75,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                     product: productData[index],
                                   )));
                         },
+                         
                         child: Column(
                           children: [
+                            
                             Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(12),
