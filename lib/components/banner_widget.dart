@@ -11,22 +11,6 @@ class BannerWidget extends StatefulWidget {
 }
 
 class _BannerWidgetState extends State<BannerWidget> {
-  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-
-  final List _bannerImage = [];
-
-  getBanners() {
-    return _firestore
-        .collection('banners')
-        .get()
-        .then((QuerySnapshot querySnapshot) {
-      for (var doc in querySnapshot.docs) {
-        setState(() {
-          _bannerImage.add(doc['image']);
-        });
-      }
-    });
-  }
 
   int _currentPage = 0;
   final PageController _pageController = PageController(
@@ -35,11 +19,10 @@ class _BannerWidgetState extends State<BannerWidget> {
 
   @override
   void initState() {
-    getBanners();
     super.initState();
     Timer.periodic(const Duration(seconds: 3), (Timer timer) {
       return setState(() {
-        if (_currentPage < _bannerImage.length) {
+        if (_currentPage < 3) {
           _currentPage++;
         } else {
           _currentPage = 0;
@@ -63,13 +46,23 @@ class _BannerWidgetState extends State<BannerWidget> {
         decoration: BoxDecoration(
             color: Colors.yellow.shade700,
             borderRadius: BorderRadius.circular(10)),
-        child: PageView.builder(
-            controller: _pageController,
-            itemCount: _bannerImage.length,
-            itemBuilder: (context, index)
-             {
-              return Image.network(_bannerImage[index],fit:BoxFit.cover);
-             }),
+        child: PageView(
+          controller: _pageController,
+          children: [
+            Image.asset(
+              "assets/images/banner-1.jpeg",
+              fit: BoxFit.cover,
+            ),
+            Image.asset(
+              "assets/images/banner-2.jpeg",
+              fit: BoxFit.cover,
+            ),
+            Image.asset(
+              "assets/images/banner-3.jpeg",
+              fit: BoxFit.cover,
+            ),
+          ],
+        ),
       ),
     );
   }

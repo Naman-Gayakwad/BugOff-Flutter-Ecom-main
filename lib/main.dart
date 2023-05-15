@@ -1,3 +1,5 @@
+import 'package:engage_files/splashScreen.dart';
+
 import 'Pages/Home/routPage.dart';
 import 'Pages/details.dart';
 import 'Pages/Home/home.dart';
