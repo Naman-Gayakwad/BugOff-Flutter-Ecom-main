@@ -21,6 +21,37 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        bottom: const PreferredSize(
+          preferredSize: Size.fromHeight(18),
+          child: Padding(
+            padding: EdgeInsets.fromLTRB(18, 13, 18, 13),
+            child: TextField(
+              textAlignVertical: TextAlignVertical.center,
+              decoration: InputDecoration(
+                  hintText: 'Search',
+                  prefixIcon: Icon(Icons.search),
+                  suffixIcon:
+                      Icon(Icons.keyboard_voice_outlined), // mic_none_rounded
+                  border: UnderlineInputBorder(
+                      borderRadius: BorderRadius.all(
+                    Radius.circular(40),
+                  )),
+                  filled: true,
+                  fillColor: Colors.white),
+            ),
+          ),
+        ),
+        foregroundColor: Colors.transparent,
+        backgroundColor: const Color(0xFF1778F2),
+        shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+          bottomLeft: Radius.circular(18),
+          bottomRight: Radius.circular(18),
+        )),
+      ),
+      
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 12.0),
